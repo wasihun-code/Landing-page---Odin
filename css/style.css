@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Franklin Gothic Medium', Verdana, Tahoma, sans-serif;
-    background-color: lightgrey;
 }
 
 
@@ -59,14 +58,12 @@ h1, h2, h3 {
 }
 
 header .container {
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 header .container .awesome {
-    background-color: lightgreen;
     display: flex;
     flex-direction: column;
 }
@@ -76,16 +73,14 @@ header .container .awesome p {
 }
 
 
-header .container .image {
-    background-color: black;
-}
-
 button {
     max-width: 150px;
     padding: 12px;
+    margin: 12px 0;
     border-radius: 12%;
     border: none;
 }
+
 
 .content .container{
     background-color: lightyellow;
@@ -116,21 +111,21 @@ button {
 .content .content2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 450px;
-    margin: 20px;
-    align-items: center;
 }
 
+.content .content2 .quote {
+    max-width: 800px;
+}
 .content .content2 .author {
-    margin-left: 20px;
+    align-self: flex-end;
 }
 
 .content .content3 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 600px;
-    margin: 20px;
+    margin: 48px;
 }
 
 
@@ -144,3 +139,61 @@ footer {
     justify-content: center;
 
 }
+
+    /* Odin standard fonts and color styling */
+footer, .navbar, header .container {
+    background-color: #1f2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.container .awesome h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+header p, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+.button-two {
+    border: 2px double white;
+    border-radius: 12px;
+}
+
+.content3 {
+    background-color: #3882f6;
+    padding: 12px;
+    border-radius: 12px;;
+}
+
+.subcontent1 h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.content2 {
+    background-color: #e5e7eb;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+.content2 .quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 12px;
+}
+
