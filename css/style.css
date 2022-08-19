@@ -8,8 +8,6 @@ body {
     font-family: 'Franklin Gothic Medium', Verdana, Tahoma, sans-serif;
 }
 
-
-
 ul {
     list-style-type: none;
 }
@@ -39,7 +37,9 @@ h1, h2, h3 {
     padding: 15px;
     background-color: sandybrown;
 }
-
+header {
+    background-color: #1f2937;
+}
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,6 @@ button {
 
 
 .content .container{
-    background-color: lightyellow;
     color: black;
     display: flex;
     flex-direction: column;
