@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', Verdana, Tahoma, sans-serif;
+    background-color: lightgrey;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color: paleturquoise;
+}
+h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar {
+    top: 0;
+    /* right: 0;
+    left: 0; */
+    /* position: fixed; */
+    padding: 15px;
+    background-color: sandybrown;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul li {
+    margin-left: 12px;
+}
+
+header .container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .awesome {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+header .container .awesome p {
+    max-width: 400px;
+}
+
+
+header .container .image {
+    background-color: black;
+}
+
+button {
+    max-width: 150px;
+    padding: 12px;
+    border-radius: 12%;
+    border: none;
+}
+
+.content .container{
+    background-color: lightyellow;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .content1 .subcontent2 {
+    display: flex;
+    margin: 20px;
+}
+
+.content .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    margin: 20px;
+    align-items: center;
+}
+
+.content .content2 .author {
+    margin-left: 20px;
+}
+
+.content .content3 {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px;
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: salmon;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
